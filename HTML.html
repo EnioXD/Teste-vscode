@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Enio Santos Nunes</title>
+  <style>
+    body {
+      background-color: #f0f8ff; 
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2e8b57; 
+    }
+
+    p {
+      font-size: 18px;
+      text-align: justify;
+    }
+
+    ul {
+      line-height: 2; 
+    }
+
+    img.hobby-img {
+      width: 300px;
+      border-radius: 15px; 
+      display: block;
+      margin: 20px auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    table, th, td {
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+
+    td img {
+      width: 100px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .mensagem {
+      margin-top: 10px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    button {
+      display: block;
+      margin: 15px 0;
+      padding: 10px 20px;
+      background-color: #4682b4;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #5a9bd5;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Enio Santos Nunes</h1>
+
+  <p>Enio, 23 anos, de Juazeiro/BA. Apaixonado por basquete, pelo universo dos games e tudo do mundo Nerd.</p>
+
+  <button onclick="mostrarMensagem()">Clique aqui!</button>
+  <div id="mensagem" class="mensagem"></div>
+
+  <ul>
+    <li>Basquet</li>
+    <li>Games</li>
+    <li>Animes</li>
+  </ul>
+
+  <img src="https://i.pinimg.com/736x/d2/85/80/d28580c9b4194b27e54916d5b618750e.jpg" alt="Imagem de basquete" class="hobby-img">
+
+  <table>
+    <tr>
+      <td>Egito</td>
+      <td><img src="https://www.todoestudo.com.br/wp-content/uploads/2016/05/firefox_2016-05-03_08-08-21.jpg" alt="Egito"></td>
+    </tr>
+    <tr>
+      <td>Estados Unidos</td>
+      <td><img src="https://www.universal-assistance.com/br-blog/wp-content/uploads/2022/03/seguro-viagem-eua-blog-ua-br-1.jpg" alt="EUA"></td>
+    </tr>
+    <tr>
+      <td>Canadá</td>
+      <td><img src="https://www.cnnbrasil.com.br/viagemegastronomia/wp-content/uploads/sites/5/2021/07/canada.jpg?w=1200&h=900&crop=1" alt="Canadá"></td>
+    </tr>
+  </table>
+
+  <p><a href="https://www.rockstargames.com/br" target="_blank">Visite o site da Rockstar</a></p>
+
+  <script>
+    function mostrarMensagem() {
+      document.getElementById("mensagem").innerText = "Bem-vindo à minha página! nunca olhe para trás e siga em frente meu nobre!";
+    }
+  </script>
+
+</body>
+</html>
